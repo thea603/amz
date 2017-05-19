@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<body>
+	<div class="header"></div>
+	<div class="banner">
+		
+	</div>
+	<div class="firstContent">
+		<img class="firstImg" src="images/store.png" alt="">
+	</div>
+	<div class="secondContent">
+		
+	</div>
+	<div class="thirdContent">
+		
+	</div>
+	<div class="fourthContent">
+		
+	</div>
+	<div class="footer">
+		
+	</div>
+</body>
+<script src='js/jquery-1.7.2.min.js'></script>
+<script>
+	$(function(){
+		$(document).scroll(function(){
+			var height = $(document).scrollTop();
+			if(height>10){
+				$('.header').addClass('active')
+			}else{
+				$('.header').removeClass('active')
+			}
+		})
+	})
+</script>
+</html>

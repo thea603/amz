@@ -1,0 +1,56 @@
+*{
+		margin:0;
+		padding: 0;
+	}
+	html,body{
+		width: 100%;
+		height: 100%;
+	}
+	.header{
+		width:100%;
+		height: 90px;
+		background-color: transparent;
+		position: fixed;
+		transition:background-color 0.3s linear
+	}
+	.active{
+		background-color:#ffffff;
+	}
+	.firstContent{
+		width: 100%;
+		height: 500px;
+		background: url(../images/background2.png) no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	.firstImg{
+		margin-top: 60px;
+		margin-left: 100px;
+	}
+	.banner{
+		width: 100%;
+		height: 1000px;
+	    background:linear-gradient(135deg,rgba(26,151,209,1) 0%,rgba(151,212,43,1) 100%)
+	}
+	.secondContent{
+		width: 100%;
+		height: 300px;
+		background: url(../images/background4.png) no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	.thirdContent{
+		background-color: hsl(198, 95%, 23%);
+		width: 100%;
+		height: 300px;
+	 }
+	 .fourthContent{
+	 	width: 100%;
+	 	height: 350px;
+	 	background-color: #ffffff;
+	 }
+	 .footer{
+		width: 100%;
+		height: 300px;
+	    background:linear-gradient(135deg,rgba(26,151,209,1) 0%,rgba(151,212,43,1) 100%)
+	 }
